@@ -1,0 +1,67 @@
+/* Container */
+
+/* Container */
+
+/* Max WIdth  */
+
+/* Max WIdth  */
+
+/* Adaptive */
+
+/* Adaptive */
+
+/* Link */
+
+/* @include link(green,yellow,800,32,18) */
+
+/* Link */
+
+/* Container */
+
+/* Container */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: FuturaPT;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px 0px 0px 0px;
+  height: 2000px;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+}
+
+.container {
+  z-index: 1;
+}
+
+.container img {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
